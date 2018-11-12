@@ -1,0 +1,90 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+width:100%;
+height:100%;
+top:0;
+left:0;
+display:none;
+position:fixed;
+overflow:auto
+}
+img#close {
+position:absolute;
+right:490px;
+top:-14px;
+cursor:pointer
+}
+div#popupContact {
+position:absolute;
+top:17%;
+/*left:50%;
+margin-left:-202px;*/
+text-align: center;
+}
+form {
+max-width:50%;
+min-width:45%;
+padding:10px;
+border:2px solid gray;
+border-radius:10px;
+/*background-color:#fff*/
+color:white;
+background-color: rgba(0, 0, 0, .85)
+}
+h2 {
+padding:20px 35px;
+text-align:center;
+border-radius:10px 10px 0 0
+}
+hr {
+  width:100%;
+
+border:0;
+border-top:1px solid #ccc
+}
+input[type=text], input[type=number], select {
+width:82%;
+padding:15px;
+margin-top:30px;
+border:1px solid #ccc;
+
+font-size:16px;
+border-radius:5px
+}
+#item {
+padding: 5px;
+}
+#description {
+padding: 5px;
+}
+#cost {
+padding: 5px;
+}
+#image {
+padding: 5px;
+}
+#submit {
+width:70%;
+margin-top: 30px;
+text-align:center;
+padding:10px 0;
+font-size:20px;
+border-radius:5px
+}
+span {
+color:red;
+font-weight:700
+}
+button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer
+}

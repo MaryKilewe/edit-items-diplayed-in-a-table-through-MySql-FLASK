@@ -1,0 +1,102 @@
+
+
+        /* id's areusnique and must have a differnet name for each element*/
+        #p1 {
+            text-align: left;
+            width:500px;
+            color: black;
+            float: right ;
+            background-color: gold;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+        /* class styling can be shares among different elements*/
+        .p2{
+            text-align: center;
+            width:500px;
+            color: white;
+            float: left;
+            background-color: gray;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+        image{
+            top: 50px;
+        }
+        #originalTable{
+            border-color: green;
+
+            padding:20px;
+            color:red;
+        }
+        a{
+            background-color: darkgrey;
+            color: black;
+            padding:10px;
+            height: 10%;
+            width:10%;
+        }
+
+        a:hover{
+            color:white;
+        }
+        ol{
+            color:green;
+        }
+        label{
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+        }
+        input[type=text], input[type=email], input[type=tel], input[type=password], input[type=number]{
+            border-radius: 30px;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+            font-size: 20px;
+            padding: 10px;
+            border-style: solid;
+            width: 300px;
+        }
+        button{
+            border-radius: 30px;
+            background-color: darkslategray;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+            color:snow;
+            font-size: 30px;
+            padding: 10px;
+        }
+        select{
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+        }
+
+#flag{
+    border-collapse: collapse;
+    position: relative;
+}
+ .black{
+     background-color: black;
+     table-layout: fixed;
+     width:80px;
+     height:50px;
+ }
+ .red{
+     background-color: red;
+     width:80px;
+     height:50px;
+ }
+ .green{
+     background-color: green;
+     width:80px;
+     height:50px;
+ }
+ .white{
+     background-color: aliceblue;
+     width:80px;
+     height:10px;
+ }
+ #flagimage{
+     position: absolute;
+     top: 15px;
+     left: 110px;
+     width:100px;
+     height:150px;
+ }
